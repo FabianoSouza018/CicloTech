@@ -1,0 +1,204 @@
+
+/* Identidade visual da CicloTech */
+
+:root {
+    --ciclotech-verde-escuro: #174C43;
+    --ciclotech-verde: #35A879;
+    --ciclotech-verde-hover: #2B8C65;
+    --ciclotech-verde-claro: #E0EEE8;
+    --ciclotech-grafite: #253746;
+}
+
+.navbar-ciclotech {
+    background-color: var(--ciclotech-verde-escuro);
+}
+
+.navbar-ciclotech .navbar-brand {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.navbar-ciclotech .nav-link {
+    color: #E0EEE8;
+}
+
+.navbar-ciclotech .nav-link:hover,
+.navbar-ciclotech .nav-link:focus {
+    color: #8BC9B0;
+}
+
+/* Botão principal: verde CicloTech */
+
+.btn-success {
+    background-color: var(--ciclotech-verde);
+    border-color: var(--ciclotech-verde);
+    color: #FFFFFF;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background-color: var(--ciclotech-verde-hover) !important;
+    border-color: var(--ciclotech-verde-hover) !important;
+    color: #FFFFFF !important;
+}
+
+/* Botão de ação nas tabelas */
+
+.btn-visualizar {
+    width: 100px;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Botões secundários */
+
+.btn-secondary {
+    background-color: var(--ciclotech-grafite);
+    border-color: var(--ciclotech-grafite);
+    color: #FFFFFF;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #1B2934;
+    border-color: #1B2934;
+    color: #FFFFFF;
+}
+
+.btn-outline-secondary {
+    color: var(--ciclotech-grafite);
+    border-color: var(--ciclotech-grafite);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+    background-color: var(--ciclotech-grafite);
+    border-color: var(--ciclotech-grafite);
+    color: #FFFFFF;
+}
+
+/* Botões de retorno na barra superior */
+
+.btn-outline-light {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: var(--ciclotech-verde-escuro);
+}
+
+/* Ações de atenção permanecem vermelhas */
+
+.btn-danger,
+.btn-outline-danger {
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-bg: #C0392B;
+    --bs-btn-border-color: #C0392B;
+    --bs-btn-hover-bg: #A93226;
+    --bs-btn-hover-border-color: #A93226;
+}
+
+.btn-outline-danger {
+    color: #C0392B;
+    background-color: transparent;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:focus {
+    color: #FFFFFF;
+    background-color: #C0392B;
+    border-color: #C0392B;
+}
+
+/* Apresentação principal da página inicial */
+
+.hero-ciclotech h1 {
+    max-width: 900px;
+    line-height: 1.15;
+}
+
+.hero-ciclotech .hero-descricao {
+    max-width: 850px;
+}
+
+/* Selo da apresentação principal */
+
+.selo-ciclotech {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.55rem 1rem;
+    border-radius: 50rem;
+    background-color: var(--ciclotech-verde-claro);
+    color: var(--ciclotech-verde-escuro);
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    vertical-align: middle;
+}
+/* Selo Tecnologia e sustentabilidade */
+.selo-ciclotech {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 50px;
+    background-color: #35A879;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Legenda e identificação dos códigos dos equipamentos */
+
+.legenda-equipamentos {
+    padding: 15px;
+    background-color: #F8F9FA;
+    border: 1px solid #DEE2E6;
+    border-radius: 8px;
+}
+
+.item-legenda {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.codigo-prefixo {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.prefixo-ed {
+    background-color: #D1E7DD;
+    color: #0F5132;
+}
+
+.prefixo-cr {
+    background-color: #CFE2FF;
+    color: #084298;
+}
+
+.prefixo-cm {
+    background-color: #FFF3CD;
+    color: #664D03;
+}
+
+.prefixo-ci {
+    background-color: #DEE2E6;
+    color: #41464B;
+}
+
+.prefixo-outro {
+    background-color: #E9ECEF;
+    color: #495057;
+}

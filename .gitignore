@@ -1,0 +1,15 @@
+# Credenciais locais
+/includes/config.php
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Configurações locais do editor
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
